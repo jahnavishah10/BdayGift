@@ -1,0 +1,36 @@
+html,body{
+	background: black;
+	font-family: Georgia;
+}
+h1{
+	font-size: 3em;
+	line-height: 10px;
+	margin: 5px;
+	color: aqua;
+	text-align: center;
+}
+p{
+	color: aqua;
+	font-size: 3em;
+	text-align: center;
+}
+.images{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+img{
+	height: 20%;
+	width: 20%;
+	transition: all 1s;
+	margin: 10px;
+}
+img:hover{
+	transform: scale(1.2);
+}
+.btn{
+	float: right;
+	margin: 10px;
+	size: 2em;
+	border-radius: 200px;
+}
